@@ -55,7 +55,7 @@ VHDL Source Analysis Standard = VHDL-93
 
 Add the source code and configuration file to the project.  NOTE:  Universal.vhd needs to set as a global file in the compile list.
 
-Synthesis options need to be set as: 
+Synthesis options need to be set as:  
 Input File Name                    : "NanoCore.prj" 
 Input Format                       : mixed 
 Ignore Synthesis Constraint File   : NO 
@@ -84,7 +84,7 @@ Verilog 2001                       : YES
 Clock Enable                       : YES 
 wysiwyg                            : NO 
 
-Fitter options need to be set as: 
+Fitter options need to be set as:  
 Device(s) Specified                         : xc95144xl-10-TQ100 
 Optimization Method                         : SPEED 
 Multi-Level Logic Optimization              : ON 
