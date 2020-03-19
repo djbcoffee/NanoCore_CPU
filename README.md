@@ -1,37 +1,37 @@
 # NanoCore_CPU
 NanoCore is a processor core that is designed to be implemented with minimal logic resources. The compact, yet effective, set of 21 instructions and 5 addressing modes provides the features that any problem might require. The instruction set consists of 2 data movement operations, 9 arithmetic-logical operations, 7 branch instructions, 1 instruction that loads the direct page register, 1 instruction that increments the direct page register, and 1 instruction that decrements the direct page register.
 
-The NanoCore CPU project page can be found [here] (https://sites.google.com/view/m-chips/nanocore)
+The NanoCore CPU project page can be found [here](https://sites.google.com/view/m-chips/nanocore)
 
-A project to build a computer based on the NanoCore CPU can be found [here] (https://sites.google.com/view/m-chips/cpld-5)
+A project to build a computer based on the NanoCore CPU can be found [here](https://sites.google.com/view/m-chips/cpld-5)
 
 ## Getting Started
 
 The following files are provided:
-ABRegisters.vhd - Source code file
-Accumulator.vhd - Source code file
-AddressLowByteRegister.vhd - Source code file
-AddressRegister.vhd - Source code file
-ALU.vhd - Source code file
-AluAdd.vhd - Source code file
-AluLogic.vhd - Source code file
-CarryRegister.vhd - Source code file
-ControlUnit.vhd - Source code file
-CycleCounter.vhd - Source code file
-DirectPageRegister.vhd - Source code file
-LogicBlock.vhd - Source code file
-NanoCore.vhd - Source code file
-OpCodeRegister.vhd - Source code file
-ProgramCounter.vhd - Source code file
-Reset.vhd - Source code file
-StatusRegister.vhd - Source code file
-TwoBitLookAheadAdd.vhd - Source code file
-Universal.vhd - Source code file
-WriteEnableRegister.vhd - Source code file
-NanoCore.ucf - Configuration file
-NanoCore.jed - JEDEC Program file
-LICENSE.md - License text
-README.md - This file
+* ABRegisters.vhd - Source code file
+* Accumulator.vhd - Source code file
+* AddressLowByteRegister.vhd - Source code file
+* AddressRegister.vhd - Source code file
+* ALU.vhd - Source code file
+* AluAdd.vhd - Source code file
+* AluLogic.vhd - Source code file
+* CarryRegister.vhd - Source code file
+* ControlUnit.vhd - Source code file
+* CycleCounter.vhd - Source code file
+* DirectPageRegister.vhd - Source code file
+* LogicBlock.vhd - Source code file
+* NanoCore.vhd - Source code file
+* OpCodeRegister.vhd - Source code file
+* ProgramCounter.vhd - Source code file
+* Reset.vhd - Source code file
+* StatusRegister.vhd - Source code file
+* TwoBitLookAheadAdd.vhd - Source code file
+* Universal.vhd - Source code file
+* WriteEnableRegister.vhd - Source code file
+* NanoCore.ucf - Configuration file
+* NanoCore.jed - JEDEC Program file
+* LICENSE.md - License text
+* README.md - This file
 
 ### Prerequisites
 
@@ -45,7 +45,8 @@ Place the source files into any convient location on your PC.  NOTE:  The Xilinx
 
 The JEDEC Program file NanoCore.jed was created with Xilinx ISE Design Suite 14.7 WebPACK version.  This can be used to program the Xilinx XC95144XL-10TQG100C CPLD without any further setup.
 
-Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.  Set the following for the project:
+Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.
+Set the following for the project:
 Top-Level Source Type = HDL
 Synthesis Tool = XST (VHDL/Verilog)
 Simulator ISim (VHDL/Verilog)
