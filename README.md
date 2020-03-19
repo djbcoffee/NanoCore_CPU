@@ -33,25 +33,25 @@ The following files are provided:
 * LICENSE.md - License text
 * README.md - This file
 
-### Prerequisites
+## Prerequisites
 
 Xilinx’s ISE WebPACK Design Suite version 14.7 is required to do a build and can be obtained [here](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive-ise.html)
 
 Familiarity with the use and operation of the Xilinx ISE Design Suite is assumed and beyond the scope of this readme file.
 
-### Installing
+## Installing
 
 Place the source files into any convient location on your PC.  NOTE:  The Xilinx ISE Design Suite can not handle spaces in directory and file names.
 
 The JEDEC Program file NanoCore.jed was created with Xilinx ISE Design Suite 14.7 WebPACK version.  This can be used to program the Xilinx XC95144XL-10TQG100C CPLD without any further setup.
 
-Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.
-Set the following for the project:
-Top-Level Source Type = HDL
-Synthesis Tool = XST (VHDL/Verilog)
-Simulator ISim (VHDL/Verilog)
-Perferred Language = VHDL
-VHDL Source Analysis Standard = VHDL-93
+Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.  
+Set the following for the project:  
+Top-Level Source Type = HDL  
+Synthesis Tool = XST (VHDL/Verilog)  
+Simulator ISim (VHDL/Verilog)  
+Perferred Language = VHDL  
+VHDL Source Analysis Standard = VHDL-93  
 
 Add the source code and configuration file to the project.  NOTE:  Universal.vhd needs to set as a global file in the compile list.
 
@@ -121,4 +121,4 @@ The design can now be implemented.
 
 ## License
 
-This project is licensed under the GNU Public License 2 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU Public License 2 - see the [LICENSE](LICENSE) file for details
