@@ -30,7 +30,7 @@ The following files are provided:
 * WriteEnableRegister.vhd - Source code file
 * NanoCore.ucf - Configuration file
 * NanoCore.jed - JEDEC Program file
-* LICENSE.md - License text
+* LICENSE - License text
 * README.md - This file
 
 ## Prerequisites
@@ -43,7 +43,7 @@ Familiarity with the use and operation of the Xilinx ISE Design Suite is assumed
 
 Place the source files into any convient location on your PC.  NOTE:  The Xilinx ISE Design Suite can not handle spaces in directory and file names.
 
-The JEDEC Program file NanoCore.jed was created with Xilinx ISE Design Suite 14.7 WebPACK version.  This can be used to program the Xilinx XC95144XL-10TQG100C CPLD without any further setup.
+The JEDEC Program file NanoCore.jed was created with Xilinx ISE Design Suite 14.7 WebPACK version.  This can be used to program the Xilinx XC95144XL-10TQG100C CPLD without any further setup.  If you wish to do a build continue with the following steps.
 
 Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.  
 Set the following for the project:  
