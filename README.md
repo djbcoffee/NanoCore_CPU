@@ -45,8 +45,8 @@ Place the source files into any convient location on your PC.  NOTE:  The Xilinx
 
 The JEDEC Program file NanoCore.jed was created with Xilinx ISE Design Suite 14.7 WebPACK version.  This can be used to program the Xilinx XC95144XL-10TQG100C CPLD without any further setup.  If you wish to do a build continue with the following steps.
 
-Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.  
-Set the following for the project:  
+Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.\
+Set the following for the project:\
 Top-Level Source Type = HDL  
 Synthesis Tool = XST (VHDL/Verilog)  
 Simulator ISim (VHDL/Verilog)  
