@@ -51,7 +51,7 @@ Top-Level Source Type = HDL\
 Synthesis Tool = XST (VHDL/Verilog)\
 Simulator ISim (VHDL/Verilog)\
 Perferred Language = VHDL\
-VHDL Source Analysis Standard = VHDL-93\
+VHDL Source Analysis Standard = VHDL-93
 
 Add the source code and configuration file to the project.  NOTE:  Universal.vhd needs to set as a global file in the compile list.
 
@@ -82,7 +82,7 @@ Bus Delimiter                      : <>\
 Case Specifier                     : Maintain\
 Verilog 2001                       : YES\
 Clock Enable                       : YES\
-wysiwyg                            : NO\
+wysiwyg                            : NO
 
 Fitter options need to be set as:\
 Device(s) Specified                         : xc95144xl-10-TQ100\
@@ -102,7 +102,7 @@ Global Clock Optimization                   : ON\
 Global Set/Reset Optimization               : ON\
 Global Ouput Enable Optimization            : ON\
 Input Limit                                 : 54\
-Pterm Limit                                 : 50\
+Pterm Limit                                 : 50
 
 The design can now be implemented.
 
