@@ -1,7 +1,7 @@
-# NanoCore_CPU
+# NanoCore CPU
 NanoCore is a processor core that is designed to be implemented with minimal logic resources. The compact, yet effective, set of 21 instructions and 5 addressing modes provides the features that any problem might require. The instruction set consists of 2 data movement operations, 9 arithmetic-logical operations, 7 branch instructions, 1 instruction that loads the direct page register, 1 instruction that increments the direct page register, and 1 instruction that decrements the direct page register.
 
-The NanoCore CPU project page can be found [here](https://sites.google.com/view/m-chips/nanocore)
+The NanoCore CPU project page, with user manual and assmebler, can be found [here](https://sites.google.com/view/m-chips/nanocore)
 
 A project to build a computer based on the NanoCore CPU can be found [here](https://sites.google.com/view/m-chips/cpld-5)
 
@@ -41,9 +41,9 @@ Familiarity with the use and operation of the Xilinx ISE Design Suite is assumed
 
 ## Installing
 
-Place the source files into any convient location on your PC.  NOTE:  The Xilinx ISE Design Suite can not handle spaces in directory and file names.
+Place the source files into any convenient location on your PC.  NOTE:  The Xilinx ISE Design Suite can not handle spaces in directory and file names.
 
-The JEDEC Program file NanoCore.jed was created with Xilinx ISE Design Suite 14.7 WebPACK version.  This can be used to program the Xilinx XC95144XL-10TQG100C CPLD without any further setup.  If you wish to do a build continue with the following steps.
+The JEDEC Program file NanoCore.jed was created with Xilinx ISE WebPACK Design Suite version 14.7.  This can be used to program the Xilinx XC95144XL-10TQG100C CPLD without any further setup.  If you wish to do a build continue with the following steps.
 
 Create a project called NanoCore using the XC95144XL CPLD in a TQ100 package with a speed of -10.\
 Set the following for the project:\
